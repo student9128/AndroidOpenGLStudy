@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.kevin.androidopenglstudy.GLView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/btn_triangle_one"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btn_triangle_one" />
+
+        <Button
+            android:id="@+id/btn_triangle_two"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btn_triangle_one" />
+
+        <Button
+            android:id="@+id/btn_triangle_three"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btn_triangle_one" />
+
+    </LinearLayout>
+
+</ScrollView>

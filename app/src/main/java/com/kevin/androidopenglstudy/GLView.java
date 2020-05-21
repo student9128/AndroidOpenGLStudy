@@ -11,18 +11,18 @@ import android.util.AttributeSet;
  * Describe:<br/>
  */
 public class GLView extends GLSurfaceView {
-    public GLView(Context context) {
-        this(context,null);
+
+
+    public GLView(Context context, String x) {
+        super(context);
+        init(x);
+
     }
 
-    public GLView(Context context, AttributeSet attrs) {
-        super(context, attrs);
-        init();
-    }
 
-    private void init() {
+    private void init(String type) {
         setEGLContextClientVersion(2);
-        GLRender glRender = new GLRender();
+        GLRender glRender = new GLRender(type);
         setRenderer(glRender);
     }
 }
