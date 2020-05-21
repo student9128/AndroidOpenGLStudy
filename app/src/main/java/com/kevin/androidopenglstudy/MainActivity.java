@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btnTriangleTwo;
     @BindView(R.id.btn_triangle_three)
     Button btnTriangleThree;
+    @BindView(R.id.btn_triangle_four)
+    Button btnTriangleFour;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnTriangleOne.setOnClickListener(this);
         btnTriangleTwo.setOnClickListener(this);
         btnTriangleThree.setOnClickListener(this);
+        btnTriangleFour.setOnClickListener(this);
     }
 
     @Override
@@ -40,6 +43,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_triangle_three:
                 startActivity(TriangleThreeActivity.class);
+                break;
+            case R.id.btn_triangle_four:
+                startActivity(TriangleFourActivity.class);
                 break;
         }
     }

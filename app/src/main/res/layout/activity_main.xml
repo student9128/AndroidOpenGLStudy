@@ -24,14 +24,21 @@
             style="@style/btnStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/btn_triangle_one" />
+            android:text="@string/btn_triangle_two" />
 
         <Button
             android:id="@+id/btn_triangle_three"
             style="@style/btnStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/btn_triangle_one" />
+            android:text="@string/btn_triangle_three" />
+
+        <Button
+            android:id="@+id/btn_triangle_four"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btn_triangle_four" />
 
     </LinearLayout>
 

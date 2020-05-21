@@ -19,6 +19,7 @@
         <activity android:name=".TriangleOneActivity" />
         <activity android:name=".TriangleTwoActivity" />
         <activity android:name=".TriangleThreeActivity" />
+        <activity android:name=".TriangleFourActivity"/>
     </application>
 
 </manifest>

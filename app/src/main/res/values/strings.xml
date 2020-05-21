@@ -3,4 +3,5 @@
     <string name="btn_triangle_one">TriangleOne</string>
     <string name="btn_triangle_two">TriangleTwo</string>
     <string name="btn_triangle_three">TriangleThree</string>
+    <string name="btn_triangle_four">TriangleFour</string>
 </resources>
